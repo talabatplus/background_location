@@ -1,13 +1,7 @@
 package com.example.backgeound_location_example
 
-import android.os.Bundle
+import io.flutter.embedding.android.FlutterActivity;
 
-import io.flutter.app.FlutterActivity
-import io.flutter.plugins.GeneratedPluginRegistrant
+public class MainActivity extends FlutterActivity {
 
-class MainActivity: FlutterActivity() {
-  override fun onCreate(savedInstanceState: Bundle?) {
-    super.onCreate(savedInstanceState)
-    GeneratedPluginRegistrant.registerWith(this)
-  }
 }
